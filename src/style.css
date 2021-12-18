@@ -1,0 +1,62 @@
+#main {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 200px auto 20px;
+  grid-gap: 15px;
+  grid-template-areas: 
+    "header"
+    "content"
+    "footer";
+  justify-items: center;
+  background-color: #E5E5E5;
+}
+
+header {
+  grid-area: header;
+  font-family: sans-serif;
+  font-size: 26px;
+}
+
+article {
+  grid-area: content;
+  font-family: "Times New Roman", Times, serif;
+}
+
+li {
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+footer {
+  grid-area: footer;
+}
+
+figcaption {
+  font-style: italic;
+  text-align: justify;
+  width: 300px;
+  margin: auto;
+}
+
+#title {
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+}
+
+#img-div {
+  width: 800px;
+  background-color: white;
+  padding: 20px;
+}
+
+#image {
+  display: block;
+  margin: auto;
+  max-width: 400px;
+  height: auto;
+}
+
+#history {
+  width: 800px;
+  font-size: 20px;
+}
